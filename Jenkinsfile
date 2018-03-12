@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                oomposer install;
+                composer install;
             }
         }
         stage('Test') { 
