@@ -14,8 +14,12 @@
 
 
 Route::get('/dashboard', 'Dashboard@index')->name('dashboard');
-Route::get('/','PageController@portal');
+Route::get('/','PageController@portal')->name('home');;
 Route::get('/portal', 'PageController@portal');
+Route::get('/crear', 'PostController@create')->middleware('auth')->name('crear');
+Route::get('/ver/{id}', 'PostController@show')->name('ver_noticia');
+
+Route::post('/publish', 'PostController@store')->name('publish');
 
 Route::resource('posts','PostController');
 Route::resource('tags','TagsController');

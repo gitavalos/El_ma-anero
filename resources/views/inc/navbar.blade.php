@@ -11,6 +11,7 @@
         @guest
         @else
             <a class="nav-link" href="{{ route('register') }}">New User</a>
+            <a class="nav-link" href="{{ route('crear') }}">Crear nueva publicación</a>
         @endguest
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -25,7 +26,7 @@
             @guest
                 <!--<li><a class="nav-link" href="{{ route('login') }}">Login</a></li>
                     <li><a class="nav-link" href="{{ route('register') }}">Register</a></li>-->
-                    <li><a class="nav-link" href="{{url('/dashboard')}}">Dashboard</a></li>
+                    <li><a class="nav-link" href="{{url('/dashboard')}}">Iniciar Sesión</a></li>
                 @else
 
                     <li class="nav-item dropdown">
@@ -38,7 +39,7 @@
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
                                                              document.getElementById('logout-form').submit();">
-                                Logout
+                                Cerrar Sesión
                             </a>
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
