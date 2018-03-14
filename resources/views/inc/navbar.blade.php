@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-md navbar-light navbar-laravel">
-    <div class="container">
+<nav class="navbar navbar-expand-md navbar-light navbar-laravel" >
+    <div class="container" >
         <a class="navbar-brand" href="{{ url('/') }}">
             {{ config('app.name', 'ElMañanero') }}
         </a>
@@ -10,7 +10,7 @@
 
         @guest
         @else
-            <a class="nav-link" href="{{ route('register') }}">New User</a>
+            <a class="nav-link" href="{{ route('register') }}">Crear usuario</a>
         @endguest
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -23,9 +23,11 @@
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
             @guest
-                <!--<li><a class="nav-link" href="{{ route('login') }}">Login</a></li>
-                    <li><a class="nav-link" href="{{ route('register') }}">Register</a></li>-->
-                    <li><a class="nav-link" href="{{url('/dashboard')}}">Dashboard</a></li>
+                <!--
+                    <li><a class="nav-link" href="{{ route('login') }}">Login</a></li>
+                    <li><a class="nav-link" href="{{ route('register') }}">Register</a></li>
+                -->
+                    <li><a class="nav-link" href="{{url('/dashboard')}}"> INGRESAR </a></li>
                 @else
 
                     <li class="nav-item dropdown">
