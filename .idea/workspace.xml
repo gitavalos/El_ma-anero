@@ -1,36 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29be36f3-521f-4e9d-a1bc-ffb8a9d15d4f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.env" />
+    <list default="true" id="29be36f3-521f-4e9d-a1bc-ffb8a9d15d4f" name="Default" comment="cambios configuracion">
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Jenkinsfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bootstrap/cache/packages.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel-app" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/sessions/hlBt9JJ3qEHGprDvXaWtHXP6H2qxuHdH3cGHjmGe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/034d88e0fa3ccee986c028add54985b5430b3060.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/1387357e5fc3c5ebbeaacdd9df5f3633677c9c61.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/2f4ac50ad2d50628723a4d600cf61f3d5f675dbb.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/41d61933a58d00195fd6a2b5fe1b9dfc98177673.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/41fde2cd262664fb22b1c78c4911fa23137a2a08.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/4dc3978852fb613b0754a7b33949204b31e9cf1a.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/5b43c3bba7a53cb003c85ac9e8976f369646880f.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/5d00db01a8e8e3d8c3a048679423d2547023a31f.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/69137a1d917683e3f5449bbcf9a2775e4ad2f52c.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/c8a5997415f7561f8f21b50a8f2eac42e61133d3.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/cffeb3c8d01e50cbbcb58b62cd953f12a7ad95d4.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/db13825856f9571cd42f66ba7a7d692edd5ad19b.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/e691fd0c4e85c5085a823523ba47cf182a65bbb2.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/eba517dd8d67ef50de6ac610e4bc1df371657336.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/f3e841335989f1aa7f7311e37ff2c1a23d642818.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Help!/.env.example" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Help!/Configuracion.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Help!/elmananero.sql" />
+      <change beforePath="$PROJECT_DIR$/.env.example" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/website.iml" afterPath="$PROJECT_DIR$/.idea/website.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
+      <change beforePath="$PROJECT_DIR$/Configuracion.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+      <change beforePath="$PROJECT_DIR$/elmananero.sql" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,31 +26,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <file leaf-file-name="CategoriesTableSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
+      <file leaf-file-name="UsersTableSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="277">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elmananero.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Help!/elmananero.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,28 +69,38 @@
       <file leaf-file-name="2018_03_10_023236_create_posts_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_10_023236_create_posts_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="399">
+              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018_03_10_030059_create_categories_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_10_030059_create_categories_table.php">
+      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="336">
+              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018_03_10_030603_create_tags_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_10_030603_create_tags_table.php">
+      <file leaf-file-name="2014_10_12_100000_create_password_resets_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -165,6 +167,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/Pages/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Dashboard.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
         <option value="$PROJECT_DIR$/resources/views/Pages/portal.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
@@ -179,7 +182,7 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_03_10_030603_create_tags_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
+        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
       </list>
     </option>
   </component>
@@ -280,6 +283,7 @@
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -295,104 +299,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Illuminate" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Illuminate" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Routing" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tinker" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Tests">
           <expand>
@@ -409,12 +315,46 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="El_ma-anero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="El_ma-anero" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="El_ma-anero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="El_ma-anero" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="El_ma-anero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="El_ma-anero" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="factories" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="El_ma-anero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="El_ma-anero" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="El_ma-anero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="El_ma-anero" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="seeds" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -446,27 +386,28 @@
       <workItem from="1520617157247" duration="8377000" />
       <workItem from="1520630278822" duration="4434000" />
       <workItem from="1520637042869" duration="5965000" />
-      <workItem from="1521159588503" duration="128000" />
+      <workItem from="1521157826718" duration="1032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23628000" />
+    <option name="totallyTimeSpent" value="24532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31041667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -485,6 +426,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cambios configuracion" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios configuracion" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -492,44 +437,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/Layout/app.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/Pages/About.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/inc/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Layout/app.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/Pages/About.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/Pages/login.blade.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Pages/portal.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -773,14 +681,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_10_025605_create_tags_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_10_023236_create_posts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_10_030059_create_categories_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -797,26 +697,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1521156261407" expanded="true" signature="594:601" ph="..." />
+            <marker date="1521156261407" expanded="true" signature="594:604" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <marker date="1521156261407" expanded="true" signature="1873:2537" ph="{...}" />
+            <marker date="1521156261407" expanded="true" signature="2055:2078" ph="{...}" />
+            <marker date="1521156261407" expanded="true" signature="2316:2339" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        <state relative-caret-position="357">
+          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_03_10_023236_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Help!/elmananero.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

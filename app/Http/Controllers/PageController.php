@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use App\Post;
 
 class PageController extends Controller
 {
@@ -16,6 +18,11 @@ class PageController extends Controller
     }*/
 
     public function portal(){
-        return view('pages.portal');
+        
+        $noticias = DB::table('posts')
+                ->orderBy('created_at', 'desc')
+                ->get();
+        
+        return view('pages.portal', ['noticias' => $noticias]);
     }
 }

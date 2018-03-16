@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Category;
+use App\Post;
+use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
@@ -24,6 +27,8 @@ class PostController extends Controller
     public function create()
     {
         //
+        $categorias = Category::all();
+        return view('pages.crear', ['categorias' => $categorias]);
     }
 
     /**
@@ -35,6 +40,23 @@ class PostController extends Controller
     public function store(Request $request)
     {
         //
+        $noticia = new Post;
+        $noticia->title = $request->titulo;
+        if($request->file('file') == null){
+            return response('No venía la imagen', 500);
+        }
+        $noticia->image = $request->file('file')->store('public');
+        $noticia->image = substr($noticia->image, 7);
+        $noticia->body = $request->summernote;
+        $noticia->category_id = $request->category;
+        $noticia->user_id = Auth::id();
+        $noticia->state = $request->state;
+        
+        if($noticia->save()){
+            return view('pages.success', ['mensaje' => 'La noticia ha sido enviada exitosamente.', 200]);
+        }else{
+            return view('pages.success', ['mensaje' => 'La noticia no pudo ser enviada.', 500]);
+        }
     }
 
     /**
@@ -46,6 +68,9 @@ class PostController extends Controller
     public function show($id)
     {
         //
+        $noticia = Post::find($id);
+        
+        return view('pages.leer', ['noticia'=>$noticia]);
     }
 
     /**
