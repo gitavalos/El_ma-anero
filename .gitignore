@@ -3,8 +3,6 @@
 /public/storage
 /storage/*.key
 /vendor
-/.idea
-/.vscode
 /.vagrant
 npm-debug.log
 yarn-error.log
