@@ -14,7 +14,7 @@
             <div class="child1">Número</div>
             <div class="child2">Título</div>
             <div class="child3">Publicado</div>
-        </div>
+        </div>x
             <!-- {{ $indice = 1 }} !-->
             @foreach ($noticias as $noticia)
                 @if($noticia->state == "Publicado")
@@ -30,4 +30,3 @@
         <p style="text-align: center; font-size: 40px;">¡No hay noticias para mostrar actualmente!</p>
         @endif
     </div>
-@endsection

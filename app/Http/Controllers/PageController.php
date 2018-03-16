@@ -23,6 +23,6 @@ class PageController extends Controller
                 ->orderBy('created_at', 'desc')
                 ->get();
         
-        return view('pages.portal', ['noticias' => $noticias]);
+        return view('Pages.portal', ['noticias' => $noticias]);
     }
 }
