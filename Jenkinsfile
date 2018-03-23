@@ -1,4 +1,4 @@
 node{
 	stage "build"
-	sh "composer install"
+	echo "hello world"
 }
