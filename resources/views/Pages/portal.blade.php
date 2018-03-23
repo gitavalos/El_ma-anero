@@ -30,3 +30,4 @@
         <p style="text-align: center; font-size: 40px;">¡No hay noticias para mostrar actualmente!</p>
         @endif
     </div>
+@endsection	

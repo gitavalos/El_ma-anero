@@ -2,7 +2,5 @@ FROM jguyomard/laravel-php
 
 WORKDIR /app
 COPY . /app
-RUN chmod -R 777 /app
-
 CMD php artisan serve --host=0.0.0.0 --port=80
-EXPOSE 80 3306
+EXPOSE 80
