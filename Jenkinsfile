@@ -1,4 +1,4 @@
 node{
 	stage "build"
-	composer install 
+	php -r 'echo "Hello World!\n";'
 }
