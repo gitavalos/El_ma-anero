@@ -1,4 +1,4 @@
 node{
 	stage "build"
-	ping www.google.com
+	echo "ping www.google.com"
 }
