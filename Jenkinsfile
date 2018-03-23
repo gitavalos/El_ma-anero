@@ -1,4 +1,5 @@
 node{
 	stage "build"
-	sh "php -v"
+	echo "hola mundo"
+	"php -v"
 }
