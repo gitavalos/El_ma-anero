@@ -1,4 +1,4 @@
 node{
 	stage "build"
-	composer install
+	sh "php -v"
 }
