@@ -1,4 +1,4 @@
 node{
 	stage "build"
-	sh ping www.google.com
+	git-bash.exe ping www.google.com
 }
