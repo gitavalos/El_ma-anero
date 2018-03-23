@@ -1,4 +1,4 @@
 node{
 	stage "build"
-	cmd "ping www.google.com"
+	sh ping www.google.com
 }
