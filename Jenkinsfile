@@ -1,4 +1,4 @@
 node{
 	stage "build"
-	cmd "php -v"
+	def out = sh ("php -v")
 }
