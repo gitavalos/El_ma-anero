@@ -1,4 +1,4 @@
 node{
 	stage "build"
-	php -v
+	"php -v"
 }
