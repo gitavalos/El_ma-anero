@@ -1,5 +1,9 @@
-node{
-	stage "build"
-	def out = sh ("php -v")
-	echo out
+pipeline {
+    stages {
+        stage('Example Build') {
+            steps {
+                sh 'php -v'
+            }
+        }
+    }
 }
