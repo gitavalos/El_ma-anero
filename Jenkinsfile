@@ -1,9 +1,9 @@
 pipeline {
 	agent any
     stages {
-        stage('Example Build') {
+        stage('Build') {
             steps {
-                sh 'php -v'
+                sh 'composer install'
             }
         }
     }
