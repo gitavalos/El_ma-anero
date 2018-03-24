@@ -3,7 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                def output = sh returnStdout: true, script: 'php -v'
+                sh 'composer install'
+				sh 'php -v'
+				sh 'php artisan serve'
             }
         }
     }
