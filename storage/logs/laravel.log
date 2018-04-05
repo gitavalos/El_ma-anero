@@ -3751,3 +3751,11 @@ avbar.blade.php) at C:\\xampp\\htdocs\\laraveltest\\website\\vendor\\laravel\\fr
   
 [2018-04-03 12:00:07] local.ERROR: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
  (SQL: select * from `posts` order by `created_at` desc)  
+[2018-04-05 14:23:22] local.ERROR: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+  
+[2018-04-05 14:23:22] local.ERROR: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ (SQL: select * from `posts` order by `created_at` desc)  
+[2018-04-05 14:23:40] local.ERROR: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+  
+[2018-04-05 14:23:40] local.ERROR: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ (SQL: select * from `posts` order by `created_at` desc)  

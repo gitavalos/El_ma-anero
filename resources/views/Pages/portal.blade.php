@@ -4,8 +4,10 @@
     <!-- include custom css -->
     <link href="{{ asset('css/home.css') }}" rel="stylesheet">
 @endsection
-
 @section('content')
+	<div class="text-center">
+    <img src="https://picsum.photos/1000/100/?random" class="img-responsive center-block">
+	</div>
     <div class="container">
         @if(count($noticias) > 0)
         <p style="text-align: center; font-size: 40px;">¡Últimas noticias!</p>
@@ -27,7 +29,7 @@
             @endforeach
         </div>
         @else
-        <p style="text-align: center; font-size: 40px;">¡Actualzacion 1.0!</p>
+        <p style="text-align: center; font-size: 40px;">¡Actualzacion 1.0.2!</p>
         @endif
     </div>
 @endsection	
