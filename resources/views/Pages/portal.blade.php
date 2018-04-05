@@ -27,7 +27,7 @@
             @endforeach
         </div>
         @else
-        <p style="text-align: center; font-size: 40px;">¡No hay noticias para mostrar actualmente!</p>
+        <p style="text-align: center; font-size: 40px;">¡Actualzacion 1.0!</p>
         @endif
     </div>
 @endsection	

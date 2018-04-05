@@ -28,7 +28,7 @@ class PostController extends Controller
     {
         //
         $categorias = Category::all();
-        return view('pages.crear', ['categorias' => $categorias]);
+        return view('Pages.crear', ['categorias' => $categorias]);
     }
 
     /**
