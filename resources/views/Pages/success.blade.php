@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('css')
-    <meta http-equiv="refresh" content="2; url={{ route('home') }}" />
+    <meta http-equiv="refresh" content="2; url={{ url('/') }}" />
 @endsection
 
 @section('content')

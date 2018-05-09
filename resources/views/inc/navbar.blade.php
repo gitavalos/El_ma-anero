@@ -8,12 +8,6 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        @guest
-        @else
-            <a class="nav-link" href="{{ route('register') }}">New User</a>
-            <a class="nav-link" href="{{ route('crear') }}">Crear nueva publicación</a>
-        @endguest
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
@@ -26,7 +20,7 @@
             @guest
                 <!--<li><a class="nav-link" href="{{ route('login') }}">Login</a></li>
                     <li><a class="nav-link" href="{{ route('register') }}">Register</a></li>-->
-                    <li><a class="nav-link" href="{{url('/dashboard')}}">Iniciar Sesión</a></li>
+                    <li><a class="nav-link" href="{{ url('/dashboard')}}">Iniciar Sesión</a></li>
                 @else
 
                     <li class="nav-item dropdown">
@@ -36,6 +30,8 @@
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{{ route('register') }}">Crear Nuevo Usuario</a>
+                        <a class="dropdown-item" href="{{ route('crear') }}">Crear Publicación</a>
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
                                                              document.getElementById('logout-form').submit();">

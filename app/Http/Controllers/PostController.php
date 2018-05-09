@@ -40,10 +40,11 @@ class PostController extends Controller
     public function store(Request $request)
     {
         //
-        $noticia = new Post;
+        $noticia = new Post;    
         $noticia->title = $request->titulo;
         if($request->file('file') == null){
-            return response('No venía la imagen', 500);
+            //return back()->withInput();
+            return redirect('/crear')->with('message', 'Login Failed');
         }
         $noticia->image = $request->file('file')->store('public');
         $noticia->image = substr($noticia->image, 7);
@@ -53,9 +54,9 @@ class PostController extends Controller
         $noticia->state = $request->state;
         
         if($noticia->save()){
-            return view('pages.success', ['mensaje' => 'La noticia ha sido enviada exitosamente.', 200]);
+            return view('Pages.success', ['mensaje' => 'La noticia ha sido enviada exitosamente.', 200]);
         }else{
-            return view('pages.success', ['mensaje' => 'La noticia no pudo ser enviada.', 500]);
+            return view('Pages.success', ['mensaje' => 'La noticia no pudo ser enviada.', 500]);
         }
     }
 
@@ -70,7 +71,7 @@ class PostController extends Controller
         //
         $noticia = Post::find($id);
         
-        return view('pages.leer', ['noticia'=>$noticia]);
+        return view('Pages.leer', ['noticia'=>$noticia]);
     }
 
     /**
