@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+
 @section('css')
     <!-- include libraries(bootstrap) -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
@@ -8,6 +9,7 @@
     <!-- include custom css -->
     <link href="{{ asset('css/crear_noticia.css') }}" rel="stylesheet">
 @endsection
+
 
 @section('content')
 <div id="main_container">
@@ -24,7 +26,7 @@
         
         <!-- Entrada para la imágen -->
         <label for="file" class="tags">Imagen</label><br>
-        <input id="file" name="file" type="file"><br>
+        <input id="file" name="file" type="file" value="https://www.votatuprofesor.com/images/blog/diferencias-entre-articulo-de-opinion-y-noticia.png"><br>
         
         <!-- Entrada para el cuerpo de la noticia -->
         <label for="summernote" class="tags">Contenido:</label>
@@ -54,7 +56,7 @@
         <!-- Botón para enviar el formulario -->
         <div class="container">
             <div class="inner">
-                <input id="boton_enviar"type="submit" class="btn-primary">
+                <input value="Publicar" id="boton_enviar"type="submit" class="btn-primary">
             </div>
         </div>
     </form>

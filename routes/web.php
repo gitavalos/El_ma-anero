@@ -11,11 +11,12 @@
 |
 */
 
-
+Route::get('auth/{provider}', 'Auth\SocialAuthController@redirectToProvider')->name('social.auth');
+Route::get('auth/{provider}/callback', 'Auth\SocialAuthController@handleProviderCallback')->name('auth/{provider}/callback');
 
 Route::get('/dashboard', 'Dashboard@index')->name('dashboard');
 Route::get('/','PageController@portal')->name('home');;
-Route::get('/portal', 'PageController@portal');
+Route::get('/portal', 'PageController@portal')->name('portal');
 Route::get('/crear', 'PostController@create')->middleware('auth')->name('crear');
 Route::get('/ver/{id}', 'PostController@show')->name('ver_noticia');
 
@@ -25,3 +26,6 @@ Route::resource('posts','PostController');
 Route::resource('tags','TagsController');
 
 Auth::routes();
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
